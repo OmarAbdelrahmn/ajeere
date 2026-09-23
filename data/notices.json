@@ -1,0 +1,25 @@
+[
+  {
+    "code": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzZXJ2aWNlIjoibG9naXN0aWNzIiwiaWQiOiI1MDYyNjciLCJpYXQiOjE3ODk1NDQwOTcsInN0YXR1cyI6InZhbGlkIiwic3RhcnRfYXQiOiIyMDI2LTA5LTE3IiwiZW5kX2F0IjoiMjAyNi0xMC0xNiJ9.LUr23vRDNM5cOkEySXtdJ7__oX5nwWgR9j18XGUi_qk",
+    "status": "ساري / فعال",
+    "verificationMessage": "تم التحقق من التصريح بنجاح",
+    "permit": {
+      "number": "LG0506267",
+      "type": "تصريح تشارك",
+      "startDate": "2026-09-17",
+      "endDate": "2026-10-16"
+    },
+    "worker": {
+      "name": "MD MURAD HOSSAIN",
+      "identityNumber": "2562037990",
+      "nationality": "بنجلادشي",
+      "occupation": "سائق دراجة نارية",
+      "gender": "ذكر",
+      "birthDate": "-"
+    },
+    "establishment": {
+      "number": "9-2016843",
+      "name": "شركة الخدمة السريعة للخدمات اللوجستية"
+    }
+  }
+]
