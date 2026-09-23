@@ -23,7 +23,29 @@
     }
   }
 
-
+,  {
+    "code": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzZXJ2aWNlIjoibG9naXN0aWNzIiwiaWQiOiI0OTc0MjgiLCJpYXQiOjE3OTAxMjE2MDAsInN0YXR1cyI6InZhbGlkIiwic3RhcnRfYXQiOiIyMDI2LTA5LTIzIiwiZW5kX2F0IjoiMjAyNi0xMC0yMiJ9.JGVyuuyLUjm2AgCNYZm8Dwv3Q71HkA35Ju1goVwyF5U",
+    "status": "ساري / فعال",
+    "verificationMessage": "تم التحقق من التصريح بنجاح",
+    "permit": {
+      "number": "LG0497428",
+      "type": "تصريح تشارك",
+      "startDate": "2026-09-23",
+      "endDate": "2026-10-22"
+    },
+    "worker": {
+      "name": "MUHAMMAD TAYYAB MUSHTAQ AHMAD",
+      "identityNumber": "2557562705",
+      "nationality": "باكستان",
+      "occupation": "سائق دراجة نارية",
+      "gender": "ذكر",
+      "birthDate": "-"
+    },
+    "establishment": {
+      "number": "9-2016843",
+      "name": "شركة الخدمة السريعة للخدمات اللوجستية"
+    }
+  }
 ]
 
 
