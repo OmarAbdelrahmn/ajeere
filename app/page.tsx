@@ -1,6 +1,6 @@
-import { NoticePageView } from "@/components/NoticePageView";
-import { notices } from "@/lib/notices";
+import { notFound } from "next/navigation";
 
 export default function Home() {
-  return <NoticePageView notice={notices[0]} />;
+  notFound();
 }
+

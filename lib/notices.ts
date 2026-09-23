@@ -9,6 +9,8 @@ export type NoticeRecord = {
     type: string;
     startDate: string;
     endDate: string;
+    contractSummary?: string;
+    workLocations?: string;
   };
   worker: {
     name: string;
@@ -27,7 +29,9 @@ export type NoticeRecord = {
 export const notices = noticeData as NoticeRecord[];
 
 export function getNoticeByCode(code: string) {
-  return notices.find((notice) => notice.code === code);
+  return notices.find(
+    (notice) => notice.code === code || notice.permit.number === code,
+  );
 }
 
 export function getNoticePath(notice: NoticeRecord) {

@@ -1,6 +1,11 @@
 import { notFound } from "next/navigation";
-import { NoticePageView } from "@/components/NoticePageView";
+import { DownloadPage } from "@/components/DownloadPage";
 import { getNoticeByCode, notices } from "@/lib/notices";
+
+export const metadata = {
+  title: "تحميل تصريح أجير",
+  description: "معاينة وتحميل تصريح أجير بصيغة PDF",
+};
 
 export const dynamicParams = false;
 
@@ -11,7 +16,7 @@ export function generateStaticParams() {
   ]);
 }
 
-export default async function NoticeVerificationRoute({
+export default async function RiderDownloadRoute({
   params,
 }: {
   params: Promise<{ code: string }>;
@@ -23,5 +28,5 @@ export default async function NoticeVerificationRoute({
     notFound();
   }
 
-  return <NoticePageView notice={notice} />;
+  return <DownloadPage notice={notice} />;
 }
