@@ -1,20 +1,13 @@
 import { notFound } from "next/navigation";
 import { DownloadPage } from "@/components/DownloadPage";
-import { getNoticeByCode, notices } from "@/lib/notices";
+import { getNoticeByCode } from "@/lib/notices";
 
 export const metadata = {
   title: "تحميل تصريح أجير",
   description: "معاينة وتحميل تصريح أجير بصيغة PDF",
 };
 
-export const dynamicParams = false;
-
-export function generateStaticParams() {
-  return notices.flatMap((notice) => [
-    { code: notice.code },
-    { code: notice.permit.number },
-  ]);
-}
+export const dynamic = "force-dynamic";
 
 export default async function RiderDownloadRoute({
   params,

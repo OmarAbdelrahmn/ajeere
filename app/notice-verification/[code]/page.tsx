@@ -1,15 +1,8 @@
 import { notFound } from "next/navigation";
 import { NoticePageView } from "@/components/NoticePageView";
-import { getNoticeByCode, notices } from "@/lib/notices";
+import { getNoticeByCode } from "@/lib/notices";
 
-export const dynamicParams = false;
-
-export function generateStaticParams() {
-  return notices.flatMap((notice) => [
-    { code: notice.code },
-    { code: notice.permit.number },
-  ]);
-}
+export const dynamic = "force-dynamic";
 
 export default async function NoticeVerificationRoute({
   params,

@@ -71,7 +71,7 @@ export function DownloadPage({ notice }: { notice: NoticeRecord }) {
             <a
               className="download-button"
               href={previewUrl}
-              download={`ajeer-permit-${notice.permit.number}.pdf`}
+              download={`${notice.worker.identityNumber}.pdf`}
             >
               <FaDownload aria-hidden="true" />
               <span>تحميل التصريح</span>

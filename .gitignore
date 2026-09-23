@@ -1,6 +1,9 @@
 node_modules/
 .next/
+.next-stale/
 .open-next/
+.open-next-locked-stale/
+.open-next-stale/
 .wrangler/
 out/
 *.log
