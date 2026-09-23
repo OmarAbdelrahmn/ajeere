@@ -10,3 +10,4 @@ out/
 *.tsbuildinfo
 .DS_Store
 .dev.vars
+.spreadsheet-read/
