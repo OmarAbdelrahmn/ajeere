@@ -1,0 +1,30 @@
+[
+    {
+    "code": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzZXJ2aWNlIjoibG9naXN0aWNzIiwiaWQiOiI0OTk0NjgiLCJpYXQiOjE3OTAxMjE2MDAsInN0YXR1cyI6InZhbGlkIiwic3RhcnRfYXQiOiIyMDI2LTA5LTIzIiwiZW5kX2F0IjoiMjAyNi0xMC0yMiJ9.e-vYUqyhH59gsdfn3eNVMR-WC6bt_GRL1_vx2FvomwI",
+    "status": "ساري / فعال",
+    "verificationMessage": "تم التحقق من التصريح بنجاح",
+    "permit": {
+      "number": "LG0499468",
+      "type": "تصريح تشارك",
+      "startDate": "2026-09-23",
+      "endDate": "2026-10-22"
+    },
+    "worker": {
+      "name": "MD JASHIM UDDIN",
+      "identityNumber": "2502843010",
+      "nationality": "بنجلاديش",
+      "occupation": "سائق دراجة نارية",
+      "gender": "ذكر",
+      "birthDate": "-"
+    },
+    "establishment": {
+      "number": "9-2016843",
+      "name": "شركة الخدمة السريعة للخدمات اللوجستية"
+    }
+  }
+
+
+]
+
+
+
