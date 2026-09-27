@@ -205,6 +205,52 @@
       "number": "9-2016843",
       "name": "شركة الخدمة السريعة للخدمات اللوجستية"
     }
+  },
+  {
+    "code": "dK4mX9vP2sL7wT0yU5oB8aQ1rC3dE6fG9hJ2.nM6vX1pQ4rW7kL0yT3bZ6cV9sE2mF5gH8jK1lP4xA7dB0uI3oN6yR9eT2wQ5zC8vB1mM4lK7jH0gF3dD6sA9pP2oI5uY8tE1rW4qZ7xV0cN3mL6kJ9hG2fD5sS8aA1qQ4wW7eE0rR3tT6yY9uU2iI5oO8pP1.qA4sD7fG0hJ3kL6zX9cV2bN5mQ8wE1rT4yU7iO0pA3sD6",
+    "status": "ساري / فعال",
+    "verificationMessage": "تم التحقق من التصريح بنجاح",
+    "permit": {
+      "number": "LG0507824",
+      "type": "تصريح تشارك",
+      "startDate": "2026-09-23",
+      "endDate": "2026-10-22"
+    },
+    "worker": {
+      "name": "POLLOB DAS",
+      "identityNumber": "2581668403",
+      "nationality": "بنجلاديش",
+      "occupation": "سائق دراجة نارية",
+      "gender": "ذكر",
+      "birthDate": "-"
+    },
+    "establishment": {
+      "number": "9-2016843",
+      "name": "شركة الخدمة السريعة للخدمات اللوجستية"
+    }
+  },
+  {
+    "code": "hR7tY0uI3oP6aS9dF2gH5jK8lZ1xC4vB7nM0.kL3jH6fD9sA2qQ5wW8eE1rR4tT7yY0uU3iI6oO9pP2aA5sS8dD1gG4hH7jJ0kL3zX6cV9bN2mQ5wE8rT1yU4iO7pA0sD3fG6hJ9kL2zX5cV8bN1mQ4wE7rT0yU3iO6pA9sD2fG5hJ8kL1zX4cV7bN0mQ3wE6.rT9yU2iO5pA8sD1fG4hJ7kL0zX3cV6bN9mQ2wE5rT8yU1",
+    "status": "ساري / فعال",
+    "verificationMessage": "تم التحقق من التصريح بنجاح",
+    "permit": {
+      "number": "LG0497932",
+      "type": "تصريح تشارك",
+      "startDate": "2026-09-23",
+      "endDate": "2026-10-22"
+    },
+    "worker": {
+      "name": "MOHAMMAD FARHAN",
+      "identityNumber": "2567198912",
+      "nationality": "بنجلاديش",
+      "occupation": "سائق دراجة نارية",
+      "gender": "ذكر",
+      "birthDate": "-"
+    },
+    "establishment": {
+      "number": "9-2016843",
+      "name": "شركة الخدمة السريعة للخدمات اللوجستية"
+    }
   }
 ]
 
