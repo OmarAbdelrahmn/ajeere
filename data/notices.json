@@ -274,6 +274,52 @@
       "number": "9-2016843",
       "name": "شركة الخدمة السريعة للخدمات اللوجستية"
     }
+  },
+  {
+    "code": "sK1mN4lP7rT0wQ3vC6xB9aD2sF5gH8jM1lO4.uY3tE6rW9qZ2xV5cN8mL1kJ4hG7fD0sS3aA6qQ9wW2eE5rR8tT1yY4uU7iI0oO3pP5vK8xR9mZ2pL4wT1yU7oB6aQ3sC0dE5fG8hJ9nM3vX7pQ9rW2kL5yT8bZ1cV4sE6mF0gH9jK2lP5xA8dB3uI6oN7yR1.eT4wQ0zC3vB6mM9lK2jH5gF8dD1sA4pP7oI0uY3tE6rW9",
+    "status": "ساري / فعال",
+    "verificationMessage": "تم التحقق من التصريح بنجاح",
+    "permit": {
+      "number": "LG0501973",
+      "type": "تصريح تشارك",
+      "startDate": "2026-09-23",
+      "endDate": "2026-10-22"
+    },
+    "worker": {
+      "name": "MD SALAUDDIN",
+      "identityNumber": "2555543285",
+      "nationality": "بنجلاديش",
+      "occupation": "سائق دراجة نارية",
+      "gender": "ذكر",
+      "birthDate": "-"
+    },
+    "establishment": {
+      "number": "9-2016843",
+      "name": "شركة الخدمة السريعة للخدمات اللوجستية"
+    }
+  },
+  {
+    "code": "pB9nM2kL5jH8fD1sA4qW7eR0tY3uI6oP9aS2.dF5gH8jK1lZ4xC7vB0nM3kL6jH9fD2sA5qW8eR1tY4uI7oP0aS3dF6gH9jK2lZ5xC8vB1nM4kL7jH0fD3sA6qW9eR2tY5uI8oP1aS4dF7gH0jK3lZ6xC9vB2nM5kL8jH1fD4sA7qW0eR3tY6uI9oP2aS5dF8.gH1jK4lZ7xC0vB3nM6kL9jH2fD5sA8qW1eR4tY7uI0oP3",
+    "status": "ساري / فعال",
+    "verificationMessage": "تم التحقق من التصريح بنجاح",
+    "permit": {
+      "number": "LG0496541",
+      "type": "تصريح تشارك",
+      "startDate": "2026-09-23",
+      "endDate": "2026-10-22"
+    },
+    "worker": {
+      "name": "SHABUS HOSSAIN",
+      "identityNumber": "2563550819",
+      "nationality": "بنجلاديش",
+      "occupation": "سائق دراجة نارية",
+      "gender": "ذكر",
+      "birthDate": "-"
+    },
+    "establishment": {
+      "number": "9-2016843",
+      "name": "شركة الخدمة السريعة للخدمات اللوجستية"
+    }
   }
 ]
 
