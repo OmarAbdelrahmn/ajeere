@@ -251,6 +251,29 @@
       "number": "9-2016843",
       "name": "شركة الخدمة السريعة للخدمات اللوجستية"
     }
+  },
+  {
+    "code": "yT5bZ8cV1sE4mF7gH0jK3lP6xA9dB2uI5oN8.pP7oI0uY3tE6rW9qZ2xV5cN8mL1kJ4hG7fD0sS3aA6qQ9wW2eE5rR8tT1yY4uU7iI0oO3pP5vK8xR9mZ2pL4wT1yU7oB6aQ3sC0dE5fG8hJ9nM3vX7pQ9rW2kL5yT8bZ1cV4sE6mF0gH9jK2lP5xA8dB3uI6oN7.mN9lK2jH5gF8dD1sA4pP7oI0uY3tE6rW9qZ2xV5cN8mL1",
+    "status": "ساري / فعال",
+    "verificationMessage": "تم التحقق من التصريح بنجاح",
+    "permit": {
+      "number": "LG0503549",
+      "type": "تصريح تشارك",
+      "startDate": "2026-09-23",
+      "endDate": "2026-10-22"
+    },
+    "worker": {
+      "name": "محمد محسن عبدالستار عبدالعاطى",
+      "identityNumber": "2588250767",
+      "nationality": "مصري",
+      "occupation": "سائق دراجة نارية",
+      "gender": "ذكر",
+      "birthDate": "-"
+    },
+    "establishment": {
+      "number": "9-2016843",
+      "name": "شركة الخدمة السريعة للخدمات اللوجستية"
+    }
   }
 ]
 
