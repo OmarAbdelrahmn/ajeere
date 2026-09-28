@@ -320,6 +320,30 @@
       "number": "9-2016843",
       "name": "شركة الخدمة السريعة للخدمات اللوجستية"
     }
+  },
+  {
+    "code": "wK3mR7vP0sL5wT8yU3oB6aQ9rC1dE4fG7hJ0.nM5vX0pQ3rW6kL9yT2bZ5cV8sE1mF4gH7jK0lP3xA6dB9uI2oN5yR8eT1wQ4zC7vB0mM3lK6jH9gF2dD5sA8pP1oI4uY7tE0rW3qZ6xV9cN2mL5kJ8hG1fD4sS7aA0qQ3wW6eE9rR2tT5yY8uU1iI4oO7pP0.qA3sD6fG9hJ2kL5zX8cV1bN4mQ7wE0rT3yU6iO9pA2sD5",
+    "status": "ساري / فعال",
+    "verificationMessage": "تم التحقق من التصريح بنجاح",
+    "permit": {
+      "number": "LG0521070",
+      "type": "تصريح تشارك",
+      "startDate": "2026-09-23",
+      "endDate": "2026-10-22"
+    },
+    "worker": {
+      "name": "محمد عبدالنبي احمد محمد",
+      "identityNumber": "2574618365",
+      "nationality": "مصري",
+      "occupation": "سائق دراجة نارية",
+      "gender": "ذكر",
+      "birthDate": "-"
+    },
+    "establishment": {
+      "number": "9-2016843",
+      "name": "شركة الخدمة السريعة للخدمات اللوجستية"
+    }
   }
 ]
+
 
