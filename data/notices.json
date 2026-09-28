@@ -366,7 +366,31 @@
       "number": "9-2016843",
       "name": "شركة الخدمة السريعة للخدمات اللوجستية"
     }
+  },
+  {
+    "code": "zK7mX2vP5sL8wT1yU6oB9aQ2rC4dE7fG0hJ3.nM7vX2pQ5rW8kL1yT4bZ7cV0sE3mF6gH9jK2lP5xA8dB1uI4oN7yR0eT3wQ6zC9vB2mM5lK8jH1gF4dD7sA0pP3oI6uY9tE2rW5qZ8xV1cN4mL7kJ0hG3fD6sS9aA2qQ5wW8eE1rR4tT7yY0uU3iI6oO9pP2.qA5sD8fG1hJ4kL7zX0cV3bN6mQ9wE2rT5yU8iO1pA4sD7",
+    "status": "ساري / فعال",
+    "verificationMessage": "تم التحقق من التصريح بنجاح",
+    "permit": {
+      "number": "LG0521071",
+      "type": "تصريح تشارك",
+      "startDate": "2026-09-23",
+      "endDate": "2026-10-22"
+    },
+    "worker": {
+      "name": "JIAUL HOQUE JIA",
+      "identityNumber": "2550381632",
+      "nationality": "بنجلاديش",
+      "occupation": "سائق دراجة نارية",
+      "gender": "ذكر",
+      "birthDate": "-"
+    },
+    "establishment": {
+      "number": "9-2016843",
+      "name": "شركة الخدمة السريعة للخدمات اللوجستية"
+    }
   }
 ]
+
 
 
