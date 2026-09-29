@@ -24,6 +24,10 @@ export type NoticeRecord = {
     number: string;
     name: string;
   };
+  beneficiary?: {
+    number: string;
+    name: string;
+  };
 };
 
 export const notices = noticeData as NoticeRecord[];

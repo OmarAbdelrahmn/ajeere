@@ -65,9 +65,19 @@ function VerificationContent({ notice }: { notice: NoticeRecord }) {
     ["الجنس", notice.worker.gender, "تاريخ الميلاد", notice.worker.birthDate],
   ];
 
+  const establishmentTitle = notice.beneficiary
+    ? "المنشأة المقدمة للخدمة"
+    : "بيانات المنشأة";
+
   const establishmentRows: Row[] = [
     ["رقم المنشأة", notice.establishment.number, "اسم المنشأة", notice.establishment.name],
   ];
+
+  const beneficiaryRows: Row[] = notice.beneficiary
+    ? [
+        ["رقم المنشأة", notice.beneficiary.number, "اسم المنشأة", notice.beneficiary.name],
+      ]
+    : [];
 
   return (
     <section className="content-shell">
@@ -98,7 +108,10 @@ function VerificationContent({ notice }: { notice: NoticeRecord }) {
           <div className="tables-wrap">
             <VerificationTable title="بيانات التصريح" rows={permitRows} />
             <VerificationTable title="بيانات العامل" rows={workerRows} />
-            <VerificationTable title="بيانات المنشأة" rows={establishmentRows} />
+            <VerificationTable title={establishmentTitle} rows={establishmentRows} />
+            {notice.beneficiary && (
+              <VerificationTable title="بيانات المستفيد من الخدمة" rows={beneficiaryRows} />
+            )}
           </div>
         </div>
       </main>
