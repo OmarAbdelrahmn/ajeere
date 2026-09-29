@@ -19,6 +19,13 @@ const cells = {
   riderName: { x: 304.726, top: 221.824, width: 123.83, height: 19.05 },
   riderNationality: { x: 57.068, top: 240.874, width: 123.829, height: 19.05 },
   riderIdentity: { x: 304.726, top: 240.874, width: 123.83, height: 19.05 },
+
+  serviceProviderNumber: { x: 57.068, top: 278.974, width: 123.829, height: 37.95 },
+  serviceProviderName: { x: 304.726, top: 278.974, width: 123.83, height: 37.95 },
+
+  beneficiaryNumber: { x: 57.068, top: 335.974, width: 123.829, height: 37.95 },
+  beneficiaryName: { x: 304.726, top: 335.974, width: 123.83, height: 37.95 },
+
   contractSummary: { x: 57.068, top: 392.974, width: 371.488, height: 19.05 },
   permitEndDate: { x: 57.068, top: 412.024, width: 123.829, height: 19.05 },
   permitStartDate: { x: 304.726, top: 412.024, width: 123.83, height: 19.05 },
@@ -61,6 +68,90 @@ function drawCellValue(
     cell.top + cell.height - 3.15,
     maxWidth,
   );
+}
+
+function drawMultilineCenteredCell(
+  context: CanvasRenderingContext2D,
+  text: string,
+  cell: Cell,
+) {
+  if (!text) return;
+  const maxWidth = cell.width - 8.25;
+  let fontSize = 8.5;
+  context.direction = "rtl";
+  context.textAlign = "center";
+  context.textBaseline = "middle";
+  context.fillStyle = "#000000";
+  context.font = `${fontSize}px "FrutigerArabic", sans-serif`;
+
+  const centerX = cell.x + cell.width / 2;
+  const centerY = cell.top + cell.height / 2;
+
+  if (context.measureText(text).width <= maxWidth) {
+    context.fillText(text, centerX, centerY, maxWidth);
+    return;
+  }
+
+  const words = text.split(" ").filter(Boolean);
+  let bestLine1 = "";
+  let bestLine2 = "";
+  let bestScore = Infinity;
+
+  for (let i = 1; i < words.length; i++) {
+    const l1 = words.slice(0, i).join(" ");
+    const l2 = words.slice(i).join(" ");
+    const diff = Math.abs(l1.length - l2.length);
+    if (diff < bestScore) {
+      bestScore = diff;
+      bestLine1 = l1;
+      bestLine2 = l2;
+    }
+  }
+
+  if (!bestLine1) {
+    bestLine1 = text;
+  }
+
+  while (
+    fontSize > 6.5 &&
+    (context.measureText(bestLine1).width > maxWidth ||
+      (bestLine2 && context.measureText(bestLine2).width > maxWidth))
+  ) {
+    fontSize -= 0.25;
+    context.font = `${fontSize}px "FrutigerArabic", sans-serif`;
+  }
+
+  if (!bestLine2) {
+    context.fillText(bestLine1, centerX, centerY, maxWidth);
+  } else {
+    const lineSpacing = fontSize * 1.35;
+    context.fillText(bestLine1, centerX, centerY - lineSpacing / 2, maxWidth);
+    context.fillText(bestLine2, centerX, centerY + lineSpacing / 2, maxWidth);
+  }
+}
+
+function drawCenteredNumber(
+  context: CanvasRenderingContext2D,
+  text: string,
+  cell: Cell,
+) {
+  if (!text) return;
+  const maxWidth = cell.width - 8.25;
+  let fontSize = 8.5;
+  context.direction = "ltr";
+  context.textAlign = "center";
+  context.textBaseline = "middle";
+  context.fillStyle = "#000000";
+  context.font = `${fontSize}px "FrutigerArabic", sans-serif`;
+
+  while (fontSize > 6.5 && context.measureText(text).width > maxWidth) {
+    fontSize -= 0.25;
+    context.font = `${fontSize}px "FrutigerArabic", sans-serif`;
+  }
+
+  const centerX = cell.x + cell.width / 2;
+  const centerY = cell.top + cell.height / 2;
+  context.fillText(text, centerX, centerY, maxWidth);
 }
 
 export async function createDynamicOverlay(notice: NoticeRecord) {
@@ -112,6 +203,19 @@ export async function createDynamicOverlay(notice: NoticeRecord) {
   drawCellValue(context, notice.worker.name, cells.riderName);
   drawCellValue(context, notice.worker.nationality, cells.riderNationality);
   drawCellValue(context, notice.worker.identityNumber, cells.riderIdentity);
+
+  const providerName =
+    notice.establishment?.name || "شركة الخدمة السريعة للخدمات اللوجستية";
+  const providerNumber = notice.establishment?.number || "9-2016843";
+  const beneficiaryName =
+    notice.beneficiary?.name || "شركة هنقرستيشن المحدودة شركة شخص واحد";
+  const beneficiaryNumber = notice.beneficiary?.number || "1-1407146";
+
+  drawMultilineCenteredCell(context, providerName, cells.serviceProviderName);
+  drawCenteredNumber(context, providerNumber, cells.serviceProviderNumber);
+  drawMultilineCenteredCell(context, beneficiaryName, cells.beneficiaryName);
+  drawCenteredNumber(context, beneficiaryNumber, cells.beneficiaryNumber);
+
   drawCellValue(
     context,
     notice.permit.contractSummary ?? "",
