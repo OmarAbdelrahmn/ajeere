@@ -47,9 +47,12 @@ function drawCellValue(
   value: string,
   cell: Cell,
 ) {
-  const text = value || "";
+  const text = (value || "").trim();
+  if (!text) return;
+
   const maxWidth = cell.width - 8.25;
-  let fontSize = 9;
+  const rightX = cell.x + cell.width - 4.125;
+  let fontSize = 8.75;
 
   context.direction = "rtl";
   context.textAlign = "right";
@@ -57,17 +60,75 @@ function drawCellValue(
   context.fillStyle = "#000000";
   context.font = `${fontSize}px "FrutigerArabic", sans-serif`;
 
-  while (fontSize > 6.5 && context.measureText(text).width > maxWidth) {
-    fontSize -= 0.25;
-    context.font = `${fontSize}px "FrutigerArabic", sans-serif`;
+  // If text fits comfortably on one line without shrinking excessively, draw on single line
+  if (context.measureText(text).width <= maxWidth) {
+    context.fillText(
+      text,
+      rightX,
+      cell.top + cell.height - 4,
+      maxWidth,
+    );
+    return;
   }
 
-  context.fillText(
-    text,
-    cell.x + cell.width - 4.125,
-    cell.top + cell.height - 3.15,
-    maxWidth,
-  );
+  // Check if it fits on a single line at slightly reduced font size (>= 7.75px)
+  let testSize = fontSize;
+  while (testSize >= 7.75 && context.measureText(text).width > maxWidth) {
+    testSize -= 0.25;
+    context.font = `${testSize}px "FrutigerArabic", sans-serif`;
+  }
+
+  if (context.measureText(text).width <= maxWidth) {
+    context.fillText(
+      text,
+      rightX,
+      cell.top + cell.height - 4,
+      maxWidth,
+    );
+    return;
+  }
+
+  // Otherwise, split across two lines so long names don't shrink into tiny/crammed text
+  const words = text.split(" ").filter(Boolean);
+  let lineFontSize = 7.5;
+  context.font = `${lineFontSize}px "FrutigerArabic", sans-serif`;
+
+  let line1Words: string[] = [];
+  let line2Words: string[] = [];
+
+  for (let i = 1; i <= words.length; i++) {
+    const candidate = words.slice(0, i).join(" ");
+    if (context.measureText(candidate).width <= maxWidth) {
+      line1Words = words.slice(0, i);
+      line2Words = words.slice(i);
+    } else {
+      break;
+    }
+  }
+
+  if (line2Words.length === 0 && words.length > 1) {
+    line1Words = words.slice(0, words.length - 1);
+    line2Words = [words[words.length - 1]];
+  }
+
+  let line1 = line1Words.join(" ");
+  let line2 = line2Words.join(" ");
+
+  while (
+    lineFontSize > 6.25 &&
+    (context.measureText(line1).width > maxWidth ||
+      (line2 && context.measureText(line2).width > maxWidth))
+  ) {
+    lineFontSize -= 0.25;
+    context.font = `${lineFontSize}px "FrutigerArabic", sans-serif`;
+  }
+
+  if (!line2) {
+    context.fillText(line1, rightX, cell.top + cell.height - 4, maxWidth);
+  } else {
+    context.fillText(line1, rightX, cell.top + 8.2, maxWidth);
+    context.fillText(line2, rightX, cell.top + 16.5, maxWidth);
+  }
 }
 
 function drawMultilineCenteredCell(
