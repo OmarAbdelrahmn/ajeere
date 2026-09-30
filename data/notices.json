@@ -416,8 +416,197 @@
       "number": "1-1407146",
       "name": "شركة هنقرستيشن المحدودة شركة شخص واحد"
     }
-  }
-  ,  {
+  },
+  {
+    "code": "nbhTyrS4RsHHgfuFZSe7CEREjk3odBNqGrA3.7E4fdvq7EZpw6OyEDRb9GBc1Tc4R3bLsza8vTXyErgXJ0VTayOeu7ciKvFidrngSuMrb16n2yaAYt9GznnTkRFekBfQk3SyUazJAwQn9RixckADorADI0KPUVVYCCkh7nau8PyEN05XPdSr8bptzHaVSqEOF.Nfd2huYVZAE7sTRDG2dqZTvVgDCO7KByWrNpBplQcCJ",
+    "status": "ساري / فعال",
+    "verificationMessage": "تم التحقق من التصريح بنجاح",
+    "permit": {
+      "number": "LG0534570",
+      "type": "توصيل طعام",
+      "startDate": "2026-09-29",
+      "endDate": "2026-12-28"
+    },
+    "worker": {
+      "name": "MD SABBIR MIAH",
+      "identityNumber": "2636747798",
+      "nationality": "بنجلاديش",
+      "occupation": "سائق شاحنة صغيرة",
+      "gender": "ذكر",
+      "birthDate": "-"
+    },
+    "establishment": {
+      "number": "1-4661325",
+      "name": "شركة هرم التوصيل للخدمات اللوجستية"
+    },
+    "beneficiary": {
+      "number": "1-1407146",
+      "name": "شركة هنقرستيشن المحدودة شركة شخص واحد"
+    }
+  },
+  {
+    "code": "NTsW2C7X1adjXoflDR2QnXCU8TkAhw0yucY4.WoWCW2lSel4iNeYIGULF3rs5EYOHRoY8cduBkJVpjBkrSjo7PKRFsJdrGEgjOArBPYr25F4zojNDzAKiSAC852ZK9H62IZUwAgxuiDAYD0pwQ3aQadXLdSTtSCmD7ZiJEfbspOqAOxrOyuollhN3SmPbppGH.Ck5YiGI8IKG7ArzER2O2y1no2IyTPEGpb6AHunIysR4",
+    "status": "ساري / فعال",
+    "verificationMessage": "تم التحقق من التصريح بنجاح",
+    "permit": {
+      "number": "LG0591380",
+      "type": "توصيل طعام",
+      "startDate": "2026-09-29",
+      "endDate": "2026-12-28"
+    },
+    "worker": {
+      "name": "MD SADDAM HOSSAIN",
+      "identityNumber": "2640550584",
+      "nationality": "بنجلاديش",
+      "occupation": "سائق شاحنة صغيرة",
+      "gender": "ذكر",
+      "birthDate": "-"
+    },
+    "establishment": {
+      "number": "1-4661325",
+      "name": "شركة هرم التوصيل للخدمات اللوجستية"
+    },
+    "beneficiary": {
+      "number": "1-1407146",
+      "name": "شركة هنقرستيشن المحدودة شركة شخص واحد"
+    }
+  },
+  {
+    "code": "D2gqacebU1lkdcjVsa29pdbhXjJmlzhrLMKN.nnUHqTEh56jBZeFwKAj07vjANq7TcyLBate7eJ5u5pkHyIpb7MKp7RCHuiotDEAmCGCFxlWTqTFgXyooZGixizAIpsFrck7nshuoRL19hjHbKPPB2q1avafRlggo7T2ttHLG4wZYVwCgPKVQDHWjEDHh6sWT.MDHPXVySlzYEStI2JhozIxMknCdmg5B2DloJjyd7Lgc",
+    "status": "ساري / فعال",
+    "verificationMessage": "تم التحقق من التصريح بنجاح",
+    "permit": {
+      "number": "LG0512986",
+      "type": "توصيل طعام",
+      "startDate": "2026-09-29",
+      "endDate": "2026-12-28"
+    },
+    "worker": {
+      "name": "QASIR IQBAL MUHAMMAD ASLAM",
+      "identityNumber": "2596871240",
+      "nationality": "باكستان",
+      "occupation": "سائق شاحنة صغيرة",
+      "gender": "ذكر",
+      "birthDate": "-"
+    },
+    "establishment": {
+      "number": "1-4661325",
+      "name": "شركة هرم التوصيل للخدمات اللوجستية"
+    },
+    "beneficiary": {
+      "number": "1-1407146",
+      "name": "شركة هنقرستيشن المحدودة شركة شخص واحد"
+    }
+  },
+  {
+    "code": "TFTpGfZKzEiLqOUy5TPlrU2jwYeWOmPp9LSd.sVRCHdKWCYsG75NG5xkk6wpWe27vomW5MwH6GiVF1UYatJjNZmvchY3lYyrIB8UWE1XwzdtSaY3P3S7mUrXM2esT8RR7lnV9miHpzZoO7A4BLs34eDwQgRl7XzTALHj52EIt3cgJbHgWaLfmXx5Hp7Saz3gr.3vpj5gbECyLP5mFhFA2hza7qCLTG8NQmOrMCckZD6ka",
+    "status": "ساري / فعال",
+    "verificationMessage": "تم التحقق من التصريح بنجاح",
+    "permit": {
+      "number": "LG0569360",
+      "type": "توصيل طعام",
+      "startDate": "2026-09-29",
+      "endDate": "2026-12-28"
+    },
+    "worker": {
+      "name": "MD SAHADAT HOSEN",
+      "identityNumber": "2639708516",
+      "nationality": "بنجلاديش",
+      "occupation": "سائق شاحنة صغيرة",
+      "gender": "ذكر",
+      "birthDate": "-"
+    },
+    "establishment": {
+      "number": "1-4661325",
+      "name": "شركة هرم التوصيل للخدمات اللوجستية"
+    },
+    "beneficiary": {
+      "number": "1-1407146",
+      "name": "شركة هنقرستيشن المحدودة شركة شخص واحد"
+    }
+  },
+  {
+    "code": "xHtwB0FVuuLeItP2GhWT9IKWcPlBlmm9vHDb.GPF7IchsOBSZYq1Z170flmTXaF0OgTerBCDimSL5SQl0QNATiKgu1QRLkAb2Mz5vl9LQA7CKgQgbsjdcMrgDDjEkFSYZCqwp3K5ePdvqF8em1XHirfACNoBuOitGOVdqsITwHJGTioDRdw5w3G4Ia0J6sebi.WLvey1L9soHKeHl18sMjpBZPPLgZUFDC5rAeKVtgb32",
+    "status": "ساري / فعال",
+    "verificationMessage": "تم التحقق من التصريح بنجاح",
+    "permit": {
+      "number": "LG0595507",
+      "type": "توصيل طعام",
+      "startDate": "2026-09-29",
+      "endDate": "2026-12-28"
+    },
+    "worker": {
+      "name": "AMEEN HASAN SAIF QASEM MOHAMMED",
+      "identityNumber": "2608833113",
+      "nationality": "اليمن",
+      "occupation": "سائق شاحنة صغيرة",
+      "gender": "ذكر",
+      "birthDate": "-"
+    },
+    "establishment": {
+      "number": "1-4661325",
+      "name": "شركة هرم التوصيل للخدمات اللوجستية"
+    },
+    "beneficiary": {
+      "number": "1-1407146",
+      "name": "شركة هنقرستيشن المحدودة شركة شخص واحد"
+    }
+  },
+  {
+    "code": "yKlP8wV3tE9sL2rN5mQ7aB0cD3fG6hJ8nM1k.W0vX3pQ6rW9kL2yT5bZ8cV1sE4mF7gH0jK3lP6xA9dB2uI5oN8yR1eT4wQ7zC0vB3mM6lK9jH2gF5dD8sA1pP4oI7uY0tE3rW6qZ9xV2cN5mL8kJ1hG4fD7sS0aA3qQ6wW9eE2rR5tT8yY1uU4iI7oO0pP3aA6sS9dD2fF.D7jK0lZ3xC6vB9nM2kL5jH8fD1sA4qW7eR0tY3uI6o",
+    "status": "ساري / فعال",
+    "verificationMessage": "تم التحقق من التصريح بنجاح",
+    "permit": {
+      "number": "LG0548192",
+      "type": "توصيل طعام",
+      "startDate": "2026-09-29",
+      "endDate": "2026-12-28"
+    },
+    "worker": {
+      "name": "RAMIM AHMMED FARHAN",
+      "identityNumber": "2611216967",
+      "nationality": "بنجلاديش",
+      "occupation": "سائق شاحنة صغيرة",
+      "gender": "ذكر",
+      "birthDate": "-"
+    },
+    "establishment": {
+      "number": "1-4661325",
+      "name": "شركة هرم التوصيل للخدمات اللوجستية"
+    },
+    "beneficiary": {
+      "number": "1-1407146",
+      "name": "شركة هنقرستيشن المحدودة شركة شخص واحد"
+    }
+  },
+  {
+    "code": "mR4pQ9yT2bZ5cV8sE1mF4gH7jK0lP3xA6dB.oN5yR8eT1wQ4zC7vB0mM3lK6jH9gF2dD5sA8pP1oI4uY7tE0rW3qZ6xV9cN2mL5kJ8hG1fD4sS7aA0qQ3wW6eE9rR2tT5yY8uU1iI4oO7pP0qA3sD6fG9hJ2kL5zX8cV1bN4mQ7wE0rT3yU6iO9pA2sD5fG8hJ1kL4zX7.cM0vB3nM6kL9jH2fD5sA8qW1eR4tY7uI0oP3aS6dF9",
+    "status": "ساري / فعال",
+    "verificationMessage": "تم التحقق من التصريح بنجاح",
+    "permit": {
+      "number": "LG0582734",
+      "type": "توصيل طعام",
+      "startDate": "2026-09-29",
+      "endDate": "2026-12-28"
+    },
+    "worker": {
+      "name": "RAKIBUL SHARJAHAN",
+      "identityNumber": "2629182870",
+      "nationality": "بنجلاديش",
+      "occupation": "سائق شاحنة صغيرة",
+      "gender": "ذكر",
+      "birthDate": "-"
+    },
+    "establishment": {
+      "number": "1-4661325",
+      "name": "شركة هرم التوصيل للخدمات اللوجستية"
+    },
+    "beneficiary": {
+      "number": "1-1407146",
+      "name": "شركة هنقرستيشن المحدودة شركة شخص واحد"
+    }
+  },
+  {
     "code": "vK8xR9mZ2pL4wT1yU7oB6aQ3sC0dE5fG8hJ9.nM3vX7pQ9rW2kL5yT8bZ1cV4sE6mF0gH9jK2lP5xA8dB3uI6oN7yR1eT4wQ0zC3vB6mM9lK2jH5gF8dD1sA4pP7oI0uY3tE6rW9qZ2xV5cN8mL1kJ4hG7fD0sS3aA6qQ9wW2eE5rR8tT1yY4uU7iI0oO3pP5.qR8tY1uI4oP7aS0dF3gH6jK9lZ2xC5vB8nM1kL4jH7f",
     "status": "ساري / فعال",
     "verificationMessage": "تم التحقق من التصريح بنجاح",
