@@ -1319,6 +1319,29 @@
       "name": "شركة الخدمة السريعة للخدمات اللوجستية"
     }
   },
+    {
+    "code": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIdzI1NiJ9.eyJzZXJ2aWNlIjoibG9naXN0aWNzIiwiaWQiOiI1MDc0MDkiLCJpYXQiOjE3OTMwNTkyMDAsInN0YXR1cyI6InZhbGlkIiwic3RhcnRfYXQiOiIyMDI2LTEwLTI3IiwiZW5kX2F0IjoiMjAyNi0xMS0yNiJ9.KzPkh2lKW_L9GYAGvDI7MOS1gZafBU5IipK0swRpzSs",
+    "status": "ساري / فعال",
+    "verificationMessage": "تم التحقق من التصريح بنجاح",
+    "permit": {
+      "number": "LG0507409",
+      "type": "تصريح تشارك",
+      "startDate": "2026-10-27",
+      "endDate": "2026-11-26"
+    },
+    "worker": {
+      "name": "AFAQ KHAN JAVED KHAN",
+      "identityNumber": "2507584411",
+      "nationality": "باكستان",
+      "occupation": "سائق دراجة نارية",
+      "gender": "ذكر",
+      "birthDate": "-"
+    },
+    "establishment": {
+      "number": "9-2016843",
+      "name": "شركة الخدمة السريعة للخدمات اللوجستية"
+    }
+  },
   {
     "code": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzZXJ2aWNlIjoibG9naXN0aWNzIiwiaWQiOiI1MDM5MTUiLCJpYXQiOjE3OTMwNTkyMDAsInN0YXR1cyI6InZhbGlkIiwic3RhcnRfYXQiOiIyMDI2LTEwLTI3IiwiZW5kX2F0IjoiMjAyNi0xMS0yNiJ9.GgYGY87To6-goYJddbM2tPHfyg1n-4SA2oxj1MUeZLs",
     "status": "ساري / فعال",
