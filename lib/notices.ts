@@ -32,10 +32,39 @@ export type NoticeRecord = {
 
 export const notices = noticeData as NoticeRecord[];
 
+function decodePermitIdFromToken(token: string): string | null {
+  try {
+    const parts = token.split(".");
+    if (parts.length === 3) {
+      let b64 = parts[1].replace(/-/g, "+").replace(/_/g, "/");
+      while (b64.length % 4) {
+        b64 += "=";
+      }
+      const json =
+        typeof atob === "function"
+          ? atob(b64)
+          : Buffer.from(parts[1], "base64url").toString("utf8");
+      const payload = JSON.parse(json);
+      if (typeof payload?.id === "string") {
+        return payload.id;
+      }
+    }
+  } catch {}
+  return null;
+}
+
 export function getNoticeByCode(code: string) {
-  return notices.find(
+  const direct = notices.find(
     (notice) => notice.code === code || notice.permit.number === code,
   );
+  if (direct) return direct;
+
+  const permitId = decodePermitIdFromToken(code);
+  if (permitId) {
+    return notices.find((notice) => notice.permit.number.endsWith(permitId));
+  }
+
+  return undefined;
 }
 
 export function getNoticePath(notice: NoticeRecord) {
