@@ -1525,5 +1525,51 @@
       "number": "9-2016843",
       "name": "شركة الخدمة السريعة للخدمات اللوجستية"
     }
+  },
+  {
+    "code": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzZXJ2aWNlIjoibG9naXN0aWNzIiwiaWQiOiI1MDc0MTAiLCJpYXQiOjE3OTMwNTkyMDAsInN0YXR1cyI6InZhbGlkIiwic3RhcnRfYXQiOiIyMDI2LTEwLTI3IiwiZW5kX2F0IjoiMjAyNi0xMS0yNiJ9.HL8gdjYnCV8OMFeGgEiqZT5I72HQDok61OdYJfNdFSQ",
+    "status": "ساري / فعال",
+    "verificationMessage": "تم التحقق من التصريح بنجاح",
+    "permit": {
+      "number": "LG0507410",
+      "type": "تصريح تشارك",
+      "startDate": "2026-10-28",
+      "endDate": "2026-11-27"
+    },
+    "worker": {
+      "name": "SAHID HOWLADER",
+      "identityNumber": "2563502109",
+      "nationality": "بنجلاديش",
+      "occupation": "سائق دراجة نارية",
+      "gender": "ذكر",
+      "birthDate": "-"
+    },
+    "establishment": {
+      "number": "9-2016843",
+      "name": "شركة الخدمة السريعة للخدمات اللوجستية"
+    }
+  },
+  {
+    "code": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzZXJ2aWNlIjoibG9naXN0aWNzIiwiaWQiOiI1MDc0MTEiLCJpYXQiOjE3OTMwNTkyMDAsInN0YXR1cyI6InZhbGlkIiwic3RhcnRfYXQiOiIyMDI2LTEwLTI3IiwiZW5kX2F0IjoiMjAyNi0xMS0yNiJ9.EX-mThfdfmdisBDWkRncCRyAmUqtMQE1wIPUt64HgTY",
+    "status": "ساري / فعال",
+    "verificationMessage": "تم التحقق من التصريح بنجاح",
+    "permit": {
+      "number": "LG0507411",
+      "type": "تصريح تشارك",
+      "startDate": "2026-10-28",
+      "endDate": "2026-11-27"
+    },
+    "worker": {
+      "name": "NASIR UDDIN",
+      "identityNumber": "2574942666",
+      "nationality": "بنجلاديش",
+      "occupation": "سائق دراجة نارية",
+      "gender": "ذكر",
+      "birthDate": "-"
+    },
+    "establishment": {
+      "number": "9-2016843",
+      "name": "شركة الخدمة السريعة للخدمات اللوجستية"
+    }
   }
 ]
