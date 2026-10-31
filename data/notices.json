@@ -1594,5 +1594,28 @@
       "number": "9-2016843",
       "name": "شركة الخدمة السريعة للخدمات اللوجستية"
     }
+  },
+  {
+    "code": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzZXJ2aWNlIjoibG9naXN0aWNzIiwiaWQiOiI1MDc0MTMiLCJpYXQiOjE3OTMwNTkyMDAsInN0YXR1cyI6InZhbGlkIiwic3RhcnRfYXQiOiIyMDI2LTEwLTI3IiwiZW5kX2F0IjoiMjAyNi0xMS0yNiJ9.r1012lAU7xaBmNxdQpzBXD-P-f3ny0Ux6cBOHg7Zxe4",
+    "status": "ساري / فعال",
+    "verificationMessage": "تم التحقق من التصريح بنجاح",
+    "permit": {
+      "number": "LG0507413",
+      "type": "تصريح تشارك",
+      "startDate": "2026-10-28",
+      "endDate": "2026-11-27"
+    },
+    "worker": {
+      "name": "MUHAMMAD WASEEM MUHAMMAD DEEN",
+      "identityNumber": "2550642264",
+      "nationality": "باكستان",
+      "occupation": "سائق دراجة نارية",
+      "gender": "ذكر",
+      "birthDate": "-"
+    },
+    "establishment": {
+      "number": "9-2016843",
+      "name": "شركة الخدمة السريعة للخدمات اللوجستية"
+    }
   }
 ]
