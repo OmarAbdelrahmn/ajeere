@@ -55,7 +55,10 @@ function decodePermitIdFromToken(token: string): string | null {
 
 export function getNoticeByCode(code: string) {
   const direct = notices.find(
-    (notice) => notice.code === code || notice.permit.number === code,
+    (notice) =>
+      notice.code === code ||
+      notice.permit.number === code ||
+      notice.worker.identityNumber === code,
   );
   if (direct) return direct;
 
