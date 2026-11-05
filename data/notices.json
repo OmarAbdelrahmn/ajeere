@@ -1640,5 +1640,52 @@
       "number": "9-2016843",
       "name": "شركة الخدمة السريعة للخدمات اللوجستية"
     }
+  },
+    {
+    "code": "eyJ0eXAiOiJKV1QiLCJhbGcidicIUzI1NiJ9.eyJzZXJ2aWNlIjoibG9naXN0aWNzIiwiaWQiOiI1MDc0MTQiLCJpYXQiOjE3OTMwNTkyMDAsInN0YXR1cyI6InZhbGlkIiwic3RhcnRfYXQiOiIyMDI2LTEwLTI3IiwiZW5kX2F0IjoiMjAyNi0xMS0yNiJ9.EX-mThfdfmdisBDWkRncCRyAmUqtMQE1wIPUt64HgTa",
+    "status": "ساري / فعال",
+    "verificationMessage": "تم التحقق من التصريح بنجاح",
+    "permit": {
+      "number": "LG0507419",
+      "type": "تصريح تشارك",
+      "startDate": "2026-11-05",
+      "endDate": "2026-12-04"
+    },
+    "worker": {
+      "name": "NUR MOHAMMED",
+      "identityNumber": "2563501960",
+      "nationality": "بنجلاديش",
+      "occupation": "سائق دراجة نارية",
+      "gender": "ذكر",
+      "birthDate": "-"
+    },
+    "establishment": {
+      "number": "9-2016843",
+      "name": "شركة الخدمة السريعة للخدمات اللوجستية"
+    }
+  }
+  ,
+      {
+    "code": "eyJ0eXAiOiJKV1QiLCJhbGdcscIUzI1NiJ9.eyJzZXJ2aWNlIjoibG9naXN0aWNzIiwiaWQiOiI1MDc0MTQiLCJpYXQiOjE3OTMwNTkyMDAsInN0YXR1cyI6InZhbGlkIiwic3RhcnRfYXQiOiIyMDI2LTEwLTI3IiwiZW5kX2F0IjoiMjAyNi0xMS0yNiJ9.EX-mThfdfmdisBDWkRncCRyAmUqtMQE1wIPUt64HgTa",
+    "status": "ساري / فعال",
+    "verificationMessage": "تم التحقق من التصريح بنجاح",
+    "permit": {
+      "number": "LG0507418",
+      "type": "تصريح تشارك",
+      "startDate": "2026-11-05",
+      "endDate": "2026-12-04"
+    },
+    "worker": {
+      "name": "ASIF MIA",
+      "identityNumber": "2539021002",
+      "nationality": "بنجلاديش",
+      "occupation": "سائق دراجة نارية",
+      "gender": "ذكر",
+      "birthDate": "-"
+    },
+    "establishment": {
+      "number": "9-2016843",
+      "name": "شركة الخدمة السريعة للخدمات اللوجستية"
+    }
   }
 ]
